@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { RouterModule } from '@angular/router';
+import { NewsletterService } from './services/newsletter.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   providers: [
-    LessonsService
+    LessonsService,
+    NewsletterService
   ],
   bootstrap: [AppComponent]
 })
