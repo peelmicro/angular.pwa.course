@@ -1,4 +1,4 @@
-# Angular Material Masterclass
+# Angular Progressive Web Apps
 
 > Source code for the "Angular Progressive Web Apps" Udemy course
 
